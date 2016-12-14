@@ -1,2 +1,1 @@
-printf "//replace this with sensitive data\nexport let _REGION = '';\nexport let _IDENTITY_POOL_ID = '';\nexport let _USER_POOL_ID = '';\nexport let _CLIENT_ID = '';\nexport let _MOBILE_ANALYTICS_APP_ID = '';\n\nexport let _POOL_DATA = {\n  UserPoolId: _USER_POOL_ID,\n  ClientId: _CLIENT_ID,\n};"
-
+printf "//replace this with sensitive data\nexport let _REGION = '';\nexport let _IDENTITY_POOL_ID = '';\nexport let _USER_POOL_ID = '';\nexport let _CLIENT_ID = '';\nexport let _MOBILE_ANALYTICS_APP_ID = '';\nexport let _S3_ACCESS_KEY_ID = '';\nexport let _S3_SECRET_ACCESS_KEY = '';\nexport let _S3_BUCKET = ''; \n\nexport let _POOL_DATA = {\n  UserPoolId: _USER_POOL_ID,\n  ClientId: _CLIENT_ID,\n};"

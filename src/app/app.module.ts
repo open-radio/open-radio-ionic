@@ -26,7 +26,6 @@ import {
   ForgotPasswordStep1Component,
   ForgotPasswordStep2Component
 } from "../pages/auth/auth";
-import {ControlPanelComponent} from "../pages/controlpanel/controlpanel";
 import {Storage} from "@ionic/storage";
 import {EventsService} from "../providers/events.service";
 
@@ -48,7 +47,6 @@ import {EventsService} from "../providers/events.service";
     ResendCodeComponent,
     ForgotPasswordStep1Component,
     ForgotPasswordStep2Component,
-    ControlPanelComponent
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -70,7 +68,6 @@ import {EventsService} from "../providers/events.service";
     ResendCodeComponent,
     ForgotPasswordStep1Component,
     ForgotPasswordStep2Component,
-    ControlPanelComponent
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler},
     Plugins,
