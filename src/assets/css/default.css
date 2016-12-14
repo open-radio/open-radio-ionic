@@ -1,0 +1,145 @@
+    label {
+    position: relative;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    /*border-radius: 10px;*/
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    }
+
+    div {
+        border: 0px solid #000000;
+    }
+
+    body {
+        /*padding-top: 40px;*/
+        padding-bottom: 10px;
+        margin: 0px;
+        background-color: #003f87;
+        /*background-color: #f5f5f5;*/
+
+
+        font-size: 1em;
+        font-weight: 200;
+        color: #777777;
+        text-shadow: 0 1px 0 #ffffff;
+
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .right{
+        float: right;
+    }
+
+    .left{
+        float: left;
+    }
+
+    .fixed-position {
+        z-index:10;
+        display: block;
+        min-height:100%;
+        background-color: #003f87;
+    }
+    .pad-right{
+        margin-right: 95px
+        height: 240;
+    }
+    .remove-btn-center {
+          height: 5em;
+          line-height: 5em;
+          width: 100%;
+          text-align: center;
+    }
+    .text-center{
+        text-align: center;
+    }
+
+    .ui-resizable-helper { border: 2px dotted #00F; }
+
+    .scrollable{
+        overflow-x: scroll;
+    }
+    .mm-size1{
+        width:10%;
+    }
+    .mm-size2{
+        width:20%;
+    }
+    .mm-size3{
+        width:30%;
+    }
+    .mm-size4{
+        width:40%;
+    }
+    .mm-size5{
+        width:50%;
+    }
+    .mm-size6{
+        width:60%;
+    }
+    .mm-size7{
+        width:70%;
+    }
+    .mm-size8{
+        width:80%;
+    }
+    .mm-size9{
+        width:90%;
+    }
+    .mm-size10{
+        width:100%;
+    }
+
+    .mm-row-fluid{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .top-align {
+        height:50px;
+    }
+    #header-play {
+    }
+    #header-pause{
+        display: none;
+    }
+    #header-container{
+        margin-bottom:0px;
+    }
+    .div-center{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .form-group{
+        width:220px;
+    }
+    .text-area{
+        background-color: #fafafa;
+        margin: 10px;
+        border-style:solid
+        border-width:1px;
+        border-radius:4px;
+        background-image:linear-gradient(#ffffff,#f2f2f2);
+        background-repeat: repeat-x;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .mm-container{
+        margin:1px;
+    }
+    .margin-top{
+        margin-top: 30px;
+    }
+
+    .vertical-center{
+    }
+    .middle{
+        height:100%;
+    }

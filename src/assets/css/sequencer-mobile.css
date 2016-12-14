@@ -1,0 +1,32 @@
+@media (max-width: 430px) {
+    #tempo-container{
+        width: 100%;
+    }
+    #timing-controls{
+        height: 90px;
+    }
+}
+@media (max-width: 280px) {
+    #login{
+        display: none;
+    }
+}
+
+@media (max-width: 370px) {
+    #username{
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    #logout{
+        display: none;
+    }
+}
+
+@media (max-height: 430px) {
+    #header-container {
+        display: none;
+        height: 0px;
+    }
+}

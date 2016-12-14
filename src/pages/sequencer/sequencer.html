@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Sequencer</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="" id="top-sequencer-controls">
+    <ion-toolbar primary >
+      <ion-searchbar (ionInput)="getItems($event)" autocorrect="on"></ion-searchbar>
+    </ion-toolbar>
+  </div>
+  <canvas id="sequencerCanvas"></canvas>
+</ion-content>

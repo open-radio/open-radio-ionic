@@ -1,0 +1,7 @@
+{
+  "globalDependencies": {
+    "aws-sdk": "github:ingenieux/aws-sdk-typescript#HEAD",
+    "jqueryui": "registry:dt/jqueryui#1.11.0+20160727153854",
+    "webaudioapi/waa": "registry:dt/webaudioapi/waa#0.0.0+20160328224055"
+  }
+}
